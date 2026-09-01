@@ -1,0 +1,12 @@
+streamlit
+chromadb
+sentence-transformers
+FlagEmbedding
+openai
+httpx
+beautifulsoup4
+markdownify
+python-dotenv
+plotly
+markitdown
+# firecrawl-anydoc  # 可选引擎:在 config.DOC_CONVERT_ENGINE 改为 anydoc 时取消注释

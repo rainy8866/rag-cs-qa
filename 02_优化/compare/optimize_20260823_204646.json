@@ -1,0 +1,157 @@
+{
+  "ts": "2026-08-23T20:46:46.595538",
+  "best": {
+    "top_k": 3,
+    "min_score": 0.3,
+    "use_rerank": false,
+    "recall": 1.0,
+    "hit": 20,
+    "total": 20
+  },
+  "results": [
+    {
+      "top_k": 3,
+      "min_score": 0.3,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 3,
+      "min_score": 0.3,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 3,
+      "min_score": 0.35,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 3,
+      "min_score": 0.35,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 3,
+      "min_score": 0.4,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 3,
+      "min_score": 0.4,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 5,
+      "min_score": 0.3,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 5,
+      "min_score": 0.3,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 5,
+      "min_score": 0.35,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 5,
+      "min_score": 0.35,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 5,
+      "min_score": 0.4,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 5,
+      "min_score": 0.4,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.3,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.3,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.35,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.35,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.4,
+      "use_rerank": false,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.4,
+      "use_rerank": true,
+      "recall": 1.0,
+      "hit": 20,
+      "total": 20
+    }
+  ]
+}

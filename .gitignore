@@ -1,0 +1,22 @@
+# 密钥与配置（绝不能入库）
+.env
+.env.txt
+*.env
+
+# 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 向量库（可由 04_文档源 重建，不入库）
+.vector_store/
+
+# 临时与系统文件
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
