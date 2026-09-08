@@ -20,3 +20,5 @@ Thumbs.db
 *.log
 .idea/
 .vscode/
+# local launcher (keep local only)
+启动界面.bat

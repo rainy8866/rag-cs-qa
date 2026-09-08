@@ -78,13 +78,18 @@ def gold_set_manual_path():
 
 
 def verify_llm() -> bool:
-    """深调一次 DeepSeek，确认当前 LLM_MODEL 存在。不存在则提示改用 deepseek-chat。"""
+    """发一次最小聊天请求，确认当前 LLM_MODEL 可调用。
+    注意：DeepSeek 不支持 models.retrieve() 端点（返回 404），故改用 chat.completions 实测。"""
     if not DEEPSEEK_API_KEY:
         return False
     from openai import OpenAI
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=LLM_BASE_URL)
     try:
-        client.models.retrieve(LLM_MODEL)
+        client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=[{"role": "user", "content": "hi"}],
+            max_tokens=1,
+        )
         return True
     except Exception:
         return False
