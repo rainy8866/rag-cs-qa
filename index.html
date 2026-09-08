@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAG 客服问答系统 · 演示录屏</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f7fa;
+    color: #1f2328;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .container { max-width: 960px; width: 100%; }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #1f2328;
+  }
+  .subtitle {
+    color: #656d76;
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+  .video-wrap {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  video {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+  .info {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    line-height: 1.7;
+    font-size: 14px;
+    color: #424a53;
+  }
+  .info strong { color: #1f2328; }
+  .badge {
+    display: inline-block;
+    background: #ddf4ff;
+    color: #0969da;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>RAG 智能客服问答系统 <span class="badge">演示录屏</span></h1>
+    <p class="subtitle">多格式文档接入 · 结构感知切块 · 向量检索 + Rerank 精排 · 带引用生成 · 量化评估体系</p>
+
+    <div class="video-wrap">
+      <video controls preload="metadata" poster="">
+        <source src="05_运行与交付/演示录屏.mp4" type="video/mp4">
+        您的浏览器不支持视频播放。
+      </video>
+    </div>
+
+    <div class="info">
+      <p><strong>项目简介：</strong>从 0 到 1 打造的 RAG 客服问答系统，支持 docx/pdf/xlsx/pptx 多格式文档一键转码入库，通过召回率、引用准确率、坏例三类指标量化系统效果，并基于坏例分析驱动迭代优化。</p>
+      <p><strong>核心指标（126 条评估集 · 255 块）：</strong>召回率 92.00% · 引用准确率 90.40% · 坏例 12 条</p>
+      <p><strong>技术栈：</strong>Python · Streamlit · DeepSeek · bge-m3 · bge-reranker-v2-m3 · ChromaDB · markitdown</p>
+      <p><strong>代码仓库：</strong><a href="https://github.com/rainy8866/rag-cs-qa" target="_blank">github.com/rainy8866/rag-cs-qa</a></p>
+    </div>
+  </div>
+</body>
+</html>
